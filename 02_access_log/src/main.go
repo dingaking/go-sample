@@ -1,3 +1,7 @@
+/*
+https://github.com/mash/go-accesslog
+*/
+
 package main
 
 import (
