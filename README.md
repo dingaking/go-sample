@@ -1,3 +1,3 @@
 # go-sample
 
-export GOPATH=`pwd`
+export GOPATH=\`pwd\`
