@@ -1,4 +1,4 @@
 # go-sample
 
-export GOPATH=\`pwd\`
+export GOPATH=\`pwd\`<br />
 mkdir src; mkdir pkg; mkdir bin;
