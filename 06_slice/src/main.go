@@ -10,6 +10,9 @@ import "fmt"
  * 5. append
  * 6. reference
  * 7. copy
+ * 8. partial slice => slice[start_idx:end_idx]
+ *   8.1 partial slice keyword skip
+ *   8.2 partial slice capability
  **********************************************************************/
 
 func main() {
@@ -97,4 +100,44 @@ func main() {
 	j_slice_2[2] = 9
 	fmt.Println(j_slice_1)
 	fmt.Println(j_slice_2)
+
+	// 7. copy
+	fmt.Println("\n7. copy")
+	k := []int{1, 2, 3, 4, 5, 6, 7}
+	l := make([]int, 3)
+	fmt.Println(k)
+	fmt.Println(l)
+	copy(l, k)
+	fmt.Println(k)
+	fmt.Println(l)
+	l[1] = 5
+	fmt.Println(k)
+	fmt.Println(l)
+
+	// 8. partial slice => slice[start_idx:end_idx]
+	fmt.Println("\n8. partial slice")
+	m := []int{1, 2, 3, 4, 5, 6}
+	n := m[2:4]
+	fmt.Println(m)
+	fmt.Println(n)
+	for z:=0; z<len(n); z++ {
+		fmt.Println(n[z])
+	}
+	n[0] = 0
+	fmt.Println(m)
+	fmt.Println(n)
+
+	// 8.1 partial slice keyword skip
+	fmt.Println("\n8.1 partial slice keyword skip")
+	fmt.Println(m[:])
+	fmt.Println(m[2:])
+	fmt.Println(m[:4])
+
+	// 8.2 partial slice capability
+	fmt.Println("\n8.2 partial slice capability")
+	o := []int{1, 2, 3, 4, 5, 6, 7}
+	p := o[1:3:5]
+	fmt.Println(o)
+	fmt.Println(p)
+	
 }
