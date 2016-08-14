@@ -19,10 +19,10 @@ mkdir bin <br />
 export GOBIN=$GOPATH/bin<br /><br />
 
 "`
-GOPATH/<br />
-     bin/<br />
-     src/<br />
-       go-statsd-client/<br /><br />
+    GOPATH/<br />
+         bin/<br />
+         src/<br />
+         pkg</<br /><br />
 "`
 
 
