@@ -18,10 +18,12 @@ check go env<br />
 mkdir bin <br />
 export GOBIN=$GOPATH/bin<br /><br />
 
+"`
 GOPATH/<br />
      bin/<br />
      src/<br />
        go-statsd-client/<br /><br />
+"`
 
 
 source code in GOPATH/src/source_code.go<br />
