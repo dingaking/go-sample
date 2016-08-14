@@ -25,5 +25,5 @@ GOPATH/<br />
 
 
 source code in GOPATH/src/source_code.go<br />
-go get command in GOPATH/src/>
+go get command in GOPATH/src
 
