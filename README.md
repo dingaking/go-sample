@@ -15,6 +15,7 @@ Go install always fails no install directory outside GOPATH<br /><br />
 
 check go env<br />
 
+cd $GOPATH<br />
 mkdir bin <br />
 export GOBIN=$GOPATH/bin<br /><br />
 
@@ -24,7 +25,6 @@ GOPATH/
     src/
     pkg/
 ```
-
 
 source code in GOPATH/src/source_code.go<br />
 go get command in GOPATH/src
