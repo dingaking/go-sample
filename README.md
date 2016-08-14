@@ -18,12 +18,12 @@ check go env<br />
 mkdir bin <br />
 export GOBIN=$GOPATH/bin<br /><br />
 
-"`
-    GOPATH/<br />
-         bin/<br />
-         src/<br />
-         pkg</<br /><br />
-"`
+`
+    GOPATH/
+        bin/
+        src/
+        pkg/
+`
 
 
 source code in GOPATH/src/source_code.go<br />
