@@ -8,3 +8,22 @@ export PATH=$PATH:/usr/local/go/bin;<br />
 mkdir src; mkdir pkg; mkdir bin;<br />
 export GOPATH=\`pwd\`;<br />
 cd src;
+
+
+## GOPATH error chack
+Go install always fails no install directory outside GOPATH<br /><br />
+
+check go env<br />
+
+mkdir bin <br />
+export GOBIN=$GOPATH/bin<br /><br />
+
+GOPATH/<br />
+     bin/<br />
+     src/<br />
+       go-statsd-client/<br /><br />
+
+
+source code in GOPATH/src/source_code.go<br />
+go get command in GOPATH/src/>
+
