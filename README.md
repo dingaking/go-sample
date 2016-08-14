@@ -19,10 +19,10 @@ mkdir bin <br />
 export GOBIN=$GOPATH/bin<br /><br />
 
 ```html
-    GOPATH/
-        bin/
-        src/
-        pkg/
+GOPATH/
+    bin/
+    src/
+    pkg/
 ```
 
 
